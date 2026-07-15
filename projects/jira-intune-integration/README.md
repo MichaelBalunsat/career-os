@@ -1,58 +1,47 @@
-# Jira Asset Management + Microsoft Intune Integration (Proof of Concept)
+# Jira Asset Management + Microsoft Intune Integration
 
 ## Project Summary
 
-> **Status:** Proof of Concept (Completed)
+**Status:** Proof of Concept (Successfully Validated)
 
-This project documents a proof of concept (PoC) that I developed to validate the integration between Microsoft Intune and Jira Asset Management.
+### Overview
 
-The objective was to determine whether Microsoft Intune device information could be retrieved and synchronized into Jira Assets to improve asset visibility and reduce manual asset management.
+While working in an enterprise environment, I identified a manual asset management process that was consuming time and frequently resulted in inaccurate inventory records.
 
-Although the technical validation was successful, the project was not deployed into production due to organizational priority changes.
+I proposed building an automated integration between Microsoft Intune and Jira Asset Management to synchronize endpoint information automatically.
 
----
+The proof of concept successfully demonstrated that Microsoft Intune devices could automatically update Jira Assets using Microsoft Graph API, REST APIs, and Jira Automation.
 
-# Background
+Although the solution was technically validated and demonstrated to management, the initiative was not moved into production following an organizational restructuring that shifted project priorities.
 
-(To be completed)
+## Business Problem
 
----
+The IT department maintained hardware assets manually inside Jira Asset Management.
 
-# Business Problem
+Whenever a device changed ownership, was re-enrolled, or received updates, IT staff had to manually update:
 
-(To be completed)
+- Assigned User
+- Computer Name
+- Asset Tag
+- Operating System
+- Compliance Status
 
----
+This process was repetitive, time-consuming, and susceptible to human error, resulting in outdated asset information.
 
-# My Role
+## Proposed Solution
 
-(To be completed)
+I proposed developing an automated integration between Microsoft Intune and Jira Asset Management.
 
----
+The solution would:
 
-# Technical Approach
+- Retrieve managed device information from Microsoft Intune using Microsoft Graph API.
+- Match existing Jira Assets using the device Serial Number as the primary identifier.
+- Automatically synchronize endpoint information whenever changes occurred.
 
-(To be completed)
+The synchronized information included:
 
----
-
-# Technologies Used
-
-- Microsoft Intune
-- Microsoft Graph API
-- Jira Asset Management
-- REST API
-- Postman
-- JSON
-
----
-
-# Outcome
-
-(To be completed)
-
----
-
-# Lessons Learned
-
-(To be completed)
+- Primary User
+- Device Name
+- Asset Tag
+- Operating System
+- Compliance Status
