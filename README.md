@@ -55,6 +55,6 @@ I'm currently transitioning into AI Automation by building practical solutions u
 
 ## Contact
 
-LinkedIn (Coming Soon)
+LinkedIn (https://www.linkedin.com/in/michael-balunsat-5850052a4/)
 
 GitHub Portfolio
