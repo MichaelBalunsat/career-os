@@ -1,46 +1,60 @@
-# 👋 Hi, I'm Michael Balunsat
+# Michael Balunsat
 
-## IT Systems Engineer | AI Automation | Enterprise IT
+## Enterprise IT | AI Automation | Systems Engineering
 
-Welcome to my GitHub portfolio.
+Welcome!
 
-I have over 10 years of experience across Enterprise IT and Managed Service Providers (MSPs), specializing in Microsoft 365, Identity Management, Endpoint Management, Cloud Technologies, and IT Automation.
+I'm an IT Systems Engineer with 11+ years of experience across Enterprise IT and Managed Service Providers (MSPs).
 
-I'm currently expanding my expertise in AI automation, workflow orchestration, and developer tools by building practical projects using Claude Code, n8n, PowerShell, and GitHub.
+My background includes Microsoft 365, Entra ID, Active Directory, Intune, Azure Virtual Desktop, Okta, Jira, PowerShell, and enterprise automation.
+
+I'm currently transitioning into AI Automation by building practical solutions using Claude Code, n8n, APIs, and AI-powered workflows.
 
 ---
 
-## 🛠️ Core Technologies
+# Core Expertise
 
-- Microsoft 365
+- Microsoft 365 Administration
 - Microsoft Entra ID
 - Active Directory
 - Intune
 - Azure Virtual Desktop (AVD)
 - Exchange Online
 - SharePoint Online
-- Okta
-- Jira
+- Okta Identity
+- Jira Administration
+- Jira Automation
 - PowerShell
+- Enterprise Migrations
 
 ---
 
-## 🤖 Currently Learning
+# Current Focus
 
+- AI Automation
 - Claude Code
 - n8n
-- MCP (Model Context Protocol)
-- AI Automation
+- MCP
 - GitHub
+- API Integrations
 
 ---
 
-## 🚀 Projects
+# Featured Projects
 
-Coming soon...
+🚧 Coming Soon
 
 - MSP AI Copilot
+- Jira + Intune Integration
+- Enterprise Identity Migration
 - AI Resume Builder
 - Ticket Summarizer
-- SOP Generator
 - PowerShell Toolkit
+
+---
+
+## Contact
+
+LinkedIn (Coming Soon)
+
+GitHub Portfolio
