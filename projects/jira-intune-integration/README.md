@@ -45,3 +45,18 @@ The synchronized information included:
 - Asset Tag
 - Operating System
 - Compliance Status
+
+## Architecture
+
+```mermaid
+flowchart TD
+    A[Microsoft Intune] --> B[Microsoft Graph API]
+    B --> C[Postman Proof of Concept]
+    C --> D[JSON Transformation]
+    D --> E[Jira Assets API]
+    E --> F[Jira Asset Management]
+    F --> G[Jira Automation]
+    G --> H[Notifications]
+    G --> I[Automatic Jira Ticket]
+```
+```
